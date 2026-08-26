@@ -10,3 +10,12 @@ var division = num1 / num2;
 Console.WriteLine($"The Addition Two Numbers are: {addition}");
 Console.WriteLine($"The subtraction Two Numbers are: {subtraction}");
 Console.WriteLine($"The multiplication Two Numbers are: {multiplication}");
+if (num2 == 0)
+{
+    Console.WriteLine("Cannot divide by zero.");
+    
+}
+else
+{
+    Console.WriteLine($"The Division Two Numbers are: {division}");
+}
