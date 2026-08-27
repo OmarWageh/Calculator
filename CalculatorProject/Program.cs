@@ -6,7 +6,7 @@ int num2 = int.Parse(Console.ReadLine());
 var addition = num1 + num2;
 var subtraction = num1 - num2;
 var multiplication = num1 * num2;
-var division = num1 / num2;
+
 Console.WriteLine($"The Addition Two Numbers are: {addition}");
 Console.WriteLine($"The subtraction Two Numbers are: {subtraction}");
 Console.WriteLine($"The multiplication Two Numbers are: {multiplication}");
@@ -17,5 +17,6 @@ if (num2 == 0)
 }
 else
 {
+    var division = num1 / num2;
     Console.WriteLine($"The Division Two Numbers are: {division}");
 }
